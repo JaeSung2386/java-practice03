@@ -25,6 +25,11 @@ public class ArrayUtilsTest {
 		int[] a3 = ArrayUtils.concat(a1, a2);
 		for(int a : a3) {
 			System.out.print(a + " ");
+		/* 출력 결과
+		10.0 11.0 12.0 13.0 
+		10 11 12 13 
+		10 11 12 13 10 11 12 13 
+		 */
 		}
 	}
 }

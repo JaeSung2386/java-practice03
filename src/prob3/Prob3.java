@@ -9,6 +9,10 @@ public class Prob3 {
 		System.out.println( "백만원은 " + dollar + "달러입니다." );
 		
 		double krw = CurrencyConverter.toKRW( 100 );
-		System.out.println( "백달러는 " + krw + "원 입니다." );		
+		System.out.println( "백달러는 " + krw + "원 입니다." );
+		/* 출력 결과
+		백만원은 893.8946992044337달러입니다.
+		백달러는 111870.0원 입니다.
+		 */
 	}
 }

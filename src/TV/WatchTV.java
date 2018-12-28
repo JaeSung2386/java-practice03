@@ -24,7 +24,15 @@ public class WatchTV {
         tv.status();
 
         tv.power( false );
-        tv.status();     
+        tv.status();
+        /* 출력 결과
+        TV[power=false, channel=7, volume=20]
+		TV[power=true, channel=7, volume=0]
+		TV[power=true, channel=7, volume=50]
+		TV[power=true, channel=0, volume=50]
+		TV[power=true, channel=3, volume=50]
+		TV[power=false, channel=3, volume=50]
+         */
 	}
 
 }

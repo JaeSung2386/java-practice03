@@ -22,5 +22,13 @@ public class GoodsApp {
 			System.out.println(goods[m].getName()+"(가격:"+goods[m].getPrice()+"원)이 "
 					+ goods[m].getCountStock()+"개 입고 되었습니다.");
 		}
+		/* 입력 및 출력 결과
+		콜라 1000 10
+		사이다 900 40
+		맥주 2000 100
+		콜라(가격:1000원)이 10개 입고 되었습니다.
+		사이다(가격:900원)이 40개 입고 되었습니다.
+		맥주(가격:2000원)이 100개 입고 되었습니다.
+		 */
 	}
 }
